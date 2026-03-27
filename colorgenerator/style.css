@@ -1,0 +1,26 @@
+.color {
+    padding: 1%;
+    
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    padding-top: 15%;
+    text-align: center;
+    background-color:azure;
+}
+
+.partition {
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-color: black;
+    background-color: rgb(225, 233, 240);
+}
+
+.color_button {
+    padding: 1%;
+}
