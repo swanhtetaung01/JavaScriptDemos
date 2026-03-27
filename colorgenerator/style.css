@@ -1,15 +1,25 @@
 .color {
     padding: 1%;
-    
     display: inline-block;
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 body {
     padding-top: 15%;
     text-align: center;
     background-color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.generator {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .partition {
@@ -22,5 +32,5 @@ body {
 }
 
 .color_button {
-    padding: 1%;
+    padding: 1.5%;
 }
