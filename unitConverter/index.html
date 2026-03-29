@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+    <p>
+        <div class="input_space">
+            <input type="number" class="input_number" id="input">
+            <select name="unit" id="unit" class="input_unit">
+                <option value="m2Ft">Meters to Feet</option>
+                <option value="kg2Lb">Kilograms to Pounds</option>
+                <option value="c2F">Celsius to Fahrenheit</option>
+            </select>
+            <button class="convert" id="convert">Convert</button>
+        </div>
+        <br>
+        <div class="output_space">
+            Converted Value: <span id="output">0</span>
+        </div>
+    </p>
+</body>
+<script src="script.js"></script>
+</html>

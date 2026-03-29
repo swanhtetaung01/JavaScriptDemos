@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    padding-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: azure;
+}
+
+.input_number {
+    height: 40px;
+    width: 185px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-inline: 15px;
+    font-size: large;
+}
+
+.input_unit {
+    height: 46px;
+    width: 230px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: large;
+}
+
+.convert {
+    height: 46px;
+    width:100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bolder;
+    font-size: large;
+}
